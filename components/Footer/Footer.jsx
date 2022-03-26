@@ -8,13 +8,13 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.linkWrapper}>
-        <Link href="https://twitter.com/AndreusCafe">
+        <Link href="https://www.instagram.com/mariamzahw/">
           <a
             target="_blank"
             rel="noopener noreferrer"
             className={styles.twitterLink}
           >
-            @andreuscafe
+            @mariamzahw
           </a>
         </Link>
       </div>

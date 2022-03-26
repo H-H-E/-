@@ -13,7 +13,7 @@ export const Header = () => {
 
       {currentExample.title && (
         <Link href={currentExample.url}>
-          <a target="_blank">Show me the code</a>
+          <a target="_blank">Mariam Zahw</a>
         </Link>
       )}
     </header>

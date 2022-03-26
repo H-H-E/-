@@ -18,36 +18,36 @@ import {
 
 const ART_PIECES = [
   {
-    title: 'Ruby',
-    imgPath: '/images/artshelf/ia/ruby.jpeg',
+    title: 'M1',
+    imgPath: '/images/artshelf/ia/m1.jpg',
   },
   {
-    title: 'Assembly',
-    imgPath: '/images/artshelf/ia/assembly.jpeg',
+    title: 'M2',
+    imgPath: '/images/artshelf/ia/m2.jpg',
+  },
+  { 
+    title: 'M3',
+    imgPath: '/images/artshelf/ia/m3.jpg',
+  },
+  { 
+    title: 'M4',
+    imgPath: '/images/artshelf/ia/m4.jpg',
   },
   {
-    title: 'Game',
-    imgPath: '/images/artshelf/ia/game.jpeg',
+    title: 'M5',
+    imgPath: '/images/artshelf/ia/m5.jpg',
   },
   {
-    title: 'Hacker',
-    imgPath: '/images/artshelf/ia/hacker.jpeg',
+    title: 'M6',
+    imgPath: '/images/artshelf/ia/m6.jpg',
   },
   {
-    title: 'Lua',
-    imgPath: '/images/artshelf/ia/lua.jpeg',
+    title: 'M7',
+    imgPath: '/images/artshelf/ia/m7.jpg',
   },
   {
-    title: 'Python',
-    imgPath: '/images/artshelf/ia/python.jpeg',
-  },
-  {
-    title: 'Unreal',
-    imgPath: '/images/artshelf/ia/unreal.jpeg',
-  },
-  {
-    title: 'WebGL',
-    imgPath: '/images/artshelf/ia/webgl.jpeg',
+    title: 'M8',
+    imgPath: '/images/artshelf/ia/m8.jpg',
   },
 ]
 
@@ -346,7 +346,7 @@ const Scene = () => {
                           delay: 0.5,
                         }}
                       >
-                        $14.99
+                        Date would be here 2/2/2222
                       </motion.span>
                     </>
                   )}
@@ -385,7 +385,7 @@ export default function ArtShelf() {
   return (
     <>
       <Head>
-        <title>Art gallery | Shitty examples by @andreuscafe</title>
+        <title>إلي أصدقائي</title>
         <meta
           name="description"
           content="3D Art gallery demo using react-three-fiber."

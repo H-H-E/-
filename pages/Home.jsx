@@ -5,48 +5,15 @@ import styles from '../styles/Home.module.scss'
 import { useAppContext } from '../context/AppContext'
 
 const EXAMPLES = [
+  
+
   {
-    title: 'Scroll controlled video',
-    description: 'Using react-scrollmagic to set video.currentTime',
-    path: '/examples/scroll-video',
-    githubURL:
-      'https://github.com/andreuscafe/shitty-examples/blob/main/pages/examples/scroll-video/ScrollVideo.jsx',
-  },
-  {
-    title: 'The Forest',
-    description: '3D scene using react-three-fiber and Drei ScrollControls',
-    path: '/examples/the-forest',
-    githubURL:
-      'https://github.com/andreuscafe/shitty-examples/blob/main/pages/examples/the-forest/TheForest.jsx',
-  },
-  // {
-  //   title: 'Tulip animations',
-  //   description: 'SVG animations using framer-motion',
-  //   path: '/examples/tulips',
-  //   githubURL:
-  //     'https://github.com/andreuscafe/shitty-examples/blob/tulip/pages/examples/tulips/Tulips.jsx',
-  // },
-  {
-    title: 'Art gallery',
+    title: 'إلي أصدقائي',
     description: '3D Art gallery using R3F',
     path: '/examples/art-shelf',
-    githubURL:
-      'https://github.com/andreuscafe/shitty-examples/blob/main/pages/examples/art-shelf/ArtShelf.jsx',
+    
   },
-  {
-    title: 'Pipes Game',
-    description: '3D pipes game using R3F',
-    path: '/examples/pipes-game',
-    githubURL:
-      'https://github.com/andreuscafe/shitty-examples/blob/main/pages/examples/pipes-game/PipesGame.jsx',
-  },
-  {
-    title: 'Mural painting',
-    description: 'Exploring image color painting',
-    path: '/examples/mural-painting',
-    githubURL:
-      'https://github.com/andreuscafe/shitty-examples/blob/main/pages/examples/mural-painting/MuralPainting.jsx',
-  },
+  
 ]
 
 export default function Home() {
@@ -59,22 +26,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shitty examples by @andreuscafe</title>
-        <meta name="description" content="CSS and JS creative examples" />
+        <title>MZ</title>
+        <meta name="description" content="portfolio beta" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <section className={styles.wrapper}>
-        <h1 className={styles.title}>Shitty examples</h1>
+        <h1 className={styles.title}>Miko</h1>
 
         <div className={styles.description}>
           By{' '}
           <a
-            href="https://twitter.com/AndreusCafe"
+            href="https://www.instagram.com/mariamzahw/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @andreuscafe
+            @mariamzahw
           </a>
         </div>
 
